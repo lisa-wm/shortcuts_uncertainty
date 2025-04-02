@@ -1,6 +1,6 @@
 # Trust Me, I Know the Way: Predictive Uncertainty in the Presence of Shortcut Learning
 
-Code repository for eponymous publicaation at :sparkles: ICLR 2025 Workshop on Spurious Correlation and Shortcut Learning: Foundations and Solutions :sparkles:
+Code repository for eponymous publication at :sparkles: ICLR 2025 Workshop on Spurious Correlation and Shortcut Learning: Foundations and Solutions :sparkles:
 
 ## Setup
 
