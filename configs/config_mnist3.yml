@@ -1,0 +1,22 @@
+data:
+  dataset_name: mnist3
+  num_classes: 3
+  batch_size:
+    train: 128
+    test: 128
+  num_obs: 10000
+model:
+  model_name: smallconvnet
+  model_specs:
+    dropout_rate: 0.25
+  ensemble_size: 3
+training:
+  num_epochs: 25
+  log: False
+  log_freq: 1
+  hyperparams:
+    optimizer: adamw
+    lr_scheduler: plateau
+    lr_patience: 10
+    weight_decay: 0.01
+    log_freq_uncertainty: 1

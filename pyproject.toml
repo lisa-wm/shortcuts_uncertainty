@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "shortcuts"
+version = "0.1.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pre-commit = "^4.0.1"
+torch = "^2.5.0"
+torchvision = "^0.20.0"
+pytorch-lightning = "^2.4.0"
+wandb = "^0.18.5"
+tomli = "^2.0.2"
+jupyter = "^1.1.1"
+pyyaml = "^6.0.2"
+types-pyyaml = "^6.0.12.20240917"
+pandas = "^2.2.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
